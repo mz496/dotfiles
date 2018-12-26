@@ -1,0 +1,12 @@
+source /usr/local/etc/bash_completion.d/git-completion.bash
+source /usr/local/etc/bash_completion.d/git-prompt.sh
+
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+alias ls='ls -GFh'
+
+export PATH=$PATH:$HOME/Library/Python/3.8/bin
+powerline-daemon -q
+POWERLINE_BASH_CONTINUATION=1
+POWERLINE_BASH_SELECT=1
+. /Users/mattzhu/Library/Python/3.8/lib/python/site-packages/powerline/bindings/bash/powerline.sh
