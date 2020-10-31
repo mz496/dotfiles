@@ -1,0 +1,32 @@
+{
+    "segments": {
+        "above": [{
+        "left": [
+            {
+                "function": "powerline.segments.common.net.hostname",
+                "priority": 8,
+                "args": {
+                    "only_if_ssh": true
+                }
+            },
+            {
+                "function": "powerline.segments.common.time.date",
+                "args": {
+                    "format": "%F %a %T"
+                }
+            }
+        ]
+        }],
+        
+        "left": [
+            {
+                "function": "powerline.segments.shell.cwd",
+                "priority": 10
+            },
+            {
+                "function": "powerline_gitstatus.gitstatus",
+                "priority": 20
+            }
+        ]
+    }
+}
