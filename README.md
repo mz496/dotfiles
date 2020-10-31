@@ -8,7 +8,7 @@
 
 * `cp .bash_profile* ~`
 * `cp .gitconfig ~`
-* `mkdir ~/.config; cp -R .config/powerline ~/.config`
+* `mkdir ~/.config; cp -R .config/* ~/.config/`
 * iTerm2; import `iterm2profile.json`
 * pip
  - https://pip.pypa.io/en/stable/installing/
@@ -17,7 +17,7 @@
 * powerline-gitstatus (optional)
  - https://github.com/jaspernbrouwer/powerline-gitstatus
 * clone powerline for tmux plugin later: `cd ~/Documents && git clone https://github.com/powerline/powerline`
- 
+
 ### Vim
 
 * `cp .vimrc ~`
