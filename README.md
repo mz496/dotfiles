@@ -8,7 +8,7 @@
 
 * `cp .bash_profile* ~`
 * `cp .gitconfig ~`
-* `cp -R .config ~`
+* `mkdir ~/.config; cp -R .config/powerline ~/.config`
 * iTerm2; import `iterm2profile.json`
 * pip
  - https://pip.pypa.io/en/stable/installing/
