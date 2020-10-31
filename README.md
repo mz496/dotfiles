@@ -8,7 +8,8 @@
 
 * `cp .bash_profile* ~`
 * `cp .gitconfig ~`
-* iTerm2; set profile colors to solarized
+* `cp -R .config ~`
+* iTerm2; import `iterm2profile.json`
 * pip
  - https://pip.pypa.io/en/stable/installing/
 * powerline-status and any patched font; preferred Source Code Pro: `pip3 install powerline-status`
