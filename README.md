@@ -3,6 +3,7 @@
 ### General
 
 * Remap CapsLock to Esc: System Preferences > Keyboard > Keyboard > Modifier Keys...
+* Remap Desktop switch: System Preferences > Keyboard > Shortcuts > Mission Control > Move left/right a space
 
 ### Shell
 

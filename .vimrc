@@ -36,3 +36,16 @@ set showcmd
 set listchars=tab:»·,trail:·,extends:>,precedes:<
 set list
 set virtualedit=onemore
+
+" On pressing enter, highlight all matches of word under cursor; navigate with n/N
+let g:highlighting = 0
+function! Highlighting()
+  if g:highlighting == 1 && @/ =~ '^\\<'.expand('<cword>').'\\>$'
+    let g:highlighting = 0
+    return ":silent nohlsearch\<CR>"
+  endif
+  let @/ = '\<'.expand('<cword>').'\>'
+  let g:highlighting = 1
+  return ":silent set hlsearch\<CR>"
+endfunction
+nnoremap <silent> <expr> <CR> Highlighting()
