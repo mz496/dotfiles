@@ -5,8 +5,10 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
 
-export PATH=$PATH:$HOME/Library/Python/3.8/bin
+PYTHON3_DIR=$(dirname $(which python3))
+PYTHON_VERSION=3.9
+export PATH=$PATH:$PYTHON3_DIR
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
-. /Users/mattzhu/Library/Python/3.8/lib/python/site-packages/powerline/bindings/bash/powerline.sh
+. $PYTHON3_DIR/../lib/python$PYTHON_VERSION/site-packages/powerline/bindings/bash/powerline.sh
