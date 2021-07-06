@@ -5,10 +5,13 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
 
-PYTHON_VERSION=3.9
+# Sourcing powerline.sh installed with `pip3 install powerline-status`
+PYTHON_VERSION=3.7
+PYTHON_VERSION_FULL=3.7.3
 PYTHON3_DIR=$(dirname $(which python$PYTHON_VERSION))
 export PATH=$PATH:$PYTHON3_DIR
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
-. $PYTHON3_DIR/../lib/python$PYTHON_VERSION/site-packages/powerline/bindings/bash/powerline.sh
+# /Users/zhu/.pyenv/shims/../versions/3.7.3/lib/python3.7/site-packages/powerline/bindings/bash/powerline.sh
+. $PYTHON3_DIR/../versions/$PYTHON_VERSION_FULL/lib/python$PYTHON_VERSION/site-packages/powerline/bindings/bash/powerline.sh
