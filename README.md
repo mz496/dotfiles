@@ -7,19 +7,11 @@
 
 ### Shell
 
-* `cp .bash_profile* ~`
+* Install iTerm2; import `iterm2profile.json` and set as default (Preferences > Profiles)
+* Install Powerlevel10k, includes git prompt
+* `source ~/Documents/dotfiles/.profile_git` into `~/.zshrc` (or other rc)
 * `cp .gitconfig ~`
-* `mkdir ~/.config; cp -R .config/* ~/.config/`
-* iTerm2; import `iterm2profile.json` (Preferences > Profiles)
-* powerline-status and any patched font; preferred Source Code Pro. source: https://powerline.readthedocs.io/en/master/installation.html
-```
-pip3 install powerline-status
-```
-* powerline-gitstatus - source: https://github.com/jaspernbrouwer/powerline-gitstatus
-* clone powerline for tmux plugin later:
-```
-cd ~/Documents && git clone https://github.com/powerline/powerline
-```
+* TODO: Is this still needed without powerline? `mkdir ~/.config; cp -R .config/* ~/.config/`
 
 ### Vim
 
@@ -42,5 +34,4 @@ cd ~/Documents && git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/b
 brew install tmux
 ```
 * `cp .tmux.conf ~`
-* TODO: solarized colors in tmux with powerline?
 
