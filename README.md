@@ -29,9 +29,10 @@
 ### Vim
 
 * `cp ./home/.vimrc ~`
-* [vim solarized colors](https://github.com/altercation/solarized/tree/master/vim-colors-solarized):
+  - (won't work until the below is complete)
+* Install [vim solarized colors](https://github.com/altercation/solarized/tree/master/vim-colors-solarized):
   - `cd /tmp && git clone https://github.com/altercation/solarized && mkdir -p ~/.vim/colors/; mv solarized/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/`
-* [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start):
+* Install [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start):
   - `cd /tmp && git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim && vim +PluginInstall +qall`
 
 ### Tmux
