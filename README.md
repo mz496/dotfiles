@@ -13,7 +13,8 @@
 * Install [Homebrew](https://brew.sh/)
 * Install [iTerm2](https://iterm2.com/); `⌘`-`,` to open Preferences; import `iterm2/iterm2profile.json` and set as default (Preferences > Profiles)
 * Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k#manual), includes git prompt
-* `source ~/Documents/dotfiles/home/.profile_git` into `~/.zshrc` (or other rc)
+* Install [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete): `cd ~/Documents/dotfiles && git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git && echo "source ~/Documents/dotfiles/zsh-autocomplete/zsh-autocomplete.plugin.zsh" >> ~/.zshrc`
+* Git aliases: `echo "source ~/Documents/dotfiles/home/.profile_git" >> ~/.zshrc`
 * `cp ./home/.gitconfig ~`
 
 ### Vim
@@ -21,14 +22,10 @@
 * `cp ./home/.vimrc ~`
 
 * vim solarized colors - source: https://github.com/altercation/solarized/tree/master/vim-colors-solarized
-```
-cd /tmp && git clone https://github.com/altercation/solarized && mkdir -p ~/.vim/colors/; mv solarized/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/
-```
+`cd /tmp && git clone https://github.com/altercation/solarized && mkdir -p ~/.vim/colors/; mv solarized/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/`
 
 * Vundle - source: https://github.com/VundleVim/Vundle.vim#quick-start
-```
-cd /tmp && git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim && vim +PluginInstall +qall
-```
+`cd /tmp && git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim && vim +PluginInstall +qall`
 
 ### Tmux
 
