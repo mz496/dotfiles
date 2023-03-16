@@ -1,4 +1,4 @@
-local scrollModifier = "ctrl"
+local scrollModifier = "alt"
 local scrollMult = 4 -- negate to invert scroll direction; increase in magnitude to increase sensitivity
 
 watchCtrl = hs.eventtap.new({hs.eventtap.event.types.flagsChanged}, function(e)

@@ -8,6 +8,10 @@ alias glv='gl_ --format=medium --all --full-history'
 alias gls='gl_ --oneline --all'
 # Everyday alias - all branches, short, first few lines
 alias gl='gls | head -n 30'
+# Everyday alias - my branches, short, first few lines
+alias glm='gls --author="Matthew Zhu" | head -n 30'
 
 alias gs='git status'
+
+alias gb='git branch --show-current'
 

@@ -16,6 +16,9 @@
     "altThirdCycle" : {
       "int" : 0
     },
+    "alwaysAccountForStage" : {
+      "int" : 0
+    },
     "applyGapsToMaximize" : {
       "int" : 0
     },
@@ -46,8 +49,17 @@
     "disabledApps" : {
 
     },
+    "dragFromStage" : {
+      "int" : 0
+    },
+    "enhancedUI" : {
+      "int" : 1
+    },
     "footprintAlpha" : {
       "float" : 0.30000001192092896
+    },
+    "footprintAnimationDurationMultiplier" : {
+      "float" : 0
     },
     "footprintBorderWidth" : {
       "float" : 2
@@ -84,6 +96,12 @@
     },
     "missionControlDragging" : {
       "int" : 0
+    },
+    "missionControlDraggingAllowedOffscreenDistance" : {
+      "float" : 25
+    },
+    "missionControlDraggingDisallowedDuration" : {
+      "int" : 250
     },
     "moveCursor" : {
       "int" : 0
@@ -188,7 +206,7 @@
   "shortcuts" : {
     "bottomHalf" : {
       "keyCode" : 38,
-      "modifierFlags" : 1441792
+      "modifierFlags" : 1703936
     },
     "bottomLeft" : {
       "keyCode" : 38,
@@ -207,32 +225,32 @@
       "modifierFlags" : 786432
     },
     "firstThird" : {
-      "keyCode" : 2,
-      "modifierFlags" : 786432
+      "keyCode" : 32,
+      "modifierFlags" : 1441792
     },
     "firstTwoThirds" : {
-      "keyCode" : 14,
-      "modifierFlags" : 786432
+      "keyCode" : 16,
+      "modifierFlags" : 1441792
     },
     "larger" : {
       "keyCode" : 24,
       "modifierFlags" : 786432
     },
     "lastThird" : {
-      "keyCode" : 5,
-      "modifierFlags" : 786432
+      "keyCode" : 34,
+      "modifierFlags" : 1441792
     },
     "lastTwoThirds" : {
-      "keyCode" : 17,
-      "modifierFlags" : 786432
+      "keyCode" : 31,
+      "modifierFlags" : 1441792
     },
     "leftHalf" : {
       "keyCode" : 4,
-      "modifierFlags" : 1441792
+      "modifierFlags" : 1703936
     },
     "maximize" : {
       "keyCode" : 49,
-      "modifierFlags" : 1441792
+      "modifierFlags" : 1703936
     },
     "maximizeHeight" : {
       "keyCode" : 126,
@@ -252,7 +270,7 @@
     },
     "rightHalf" : {
       "keyCode" : 37,
-      "modifierFlags" : 1441792
+      "modifierFlags" : 1703936
     },
     "smaller" : {
       "keyCode" : 27,
@@ -260,7 +278,7 @@
     },
     "topHalf" : {
       "keyCode" : 40,
-      "modifierFlags" : 1441792
+      "modifierFlags" : 1703936
     },
     "topLeft" : {
       "keyCode" : 32,
@@ -271,5 +289,5 @@
       "modifierFlags" : 786432
     }
   },
-  "version" : "65"
+  "version" : "71"
 }
