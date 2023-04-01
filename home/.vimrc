@@ -36,6 +36,7 @@ set showcmd
 set listchars=tab:»·,trail:·,extends:>,precedes:<
 set list
 set virtualedit=onemore
+set mouse=a
 
 " On pressing enter, highlight all matches of word under cursor; navigate with n/N
 let g:highlighting = 0
