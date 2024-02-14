@@ -15,4 +15,7 @@ alias gs='git status'
 
 alias gb='git branch --show-current'
 
-alias gc='git add "*.scala" && git commit -m "$1" && git push -u origin $(gb)'
+gc() {
+    git add "*.scala" && git commit -m "$1" && git push -u origin $(gb)
+}
+
