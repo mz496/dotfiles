@@ -41,3 +41,4 @@
 * `brew install tmux`
 * `cp .tmux.conf ~`
 
+### TODO: Alfred
