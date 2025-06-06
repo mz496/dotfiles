@@ -2,10 +2,10 @@
 
 ### General
 
-* Remap CapsLock to Esc: System Preferences > Keyboard > Keyboard > Modifier Keys...
-* Remap special shortcuts: System Preferences > Keyboard > Shortcuts > Mission Control etc.
+* Remap CapsLock to Esc: System Preferences > Keyboard > Modifier Keys
+* Remap Mission Control to Cmd-Esc: System Preferences > Keyboard > Shortcuts > Mission Control etc.
 * Trackpad speed: one notch past midpoint
-* Install [Hammerspoon](https://github.com/Hammerspoon/hammerspoon/releases/latest) (for scroll with Ctrl):
+* Install [Hammerspoon](https://github.com/Hammerspoon/hammerspoon/releases/latest) (for scroll with Alt):
   - `cp ./hammerspoon/init.lua ~/.hammerspoon/`
   - Reload Config
 * Install [Rectangle](https://rectangleapp.com/) (for resizing windows):
@@ -14,6 +14,7 @@
 ### Shell
 
 * Install [Homebrew](https://brew.sh/)
+* TODO: remove; only use warp
 * Install [iTerm2](https://iterm2.com/):
   - `⌘`-`,` to open Preferences
   - import `iterm2/iterm2profile.json`
