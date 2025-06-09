@@ -1,6 +1,6 @@
-## Setup notes
+# Setup notes
 
-### General
+## General
 
 * Remap CapsLock to Esc: System Preferences > Keyboard > Modifier Keys
 * Remap Mission Control to Cmd-Esc: System Preferences > Keyboard > Shortcuts > Mission Control etc.
@@ -11,10 +11,18 @@
 * Install [Rectangle](https://rectangleapp.com/) (for resizing windows):
   - import `RectangleConfig.json`
 
-### Shell
+## Shell
 
 * Install [Homebrew](https://brew.sh/)
-* TODO: remove; only use warp
+
+### Aliases
+* Git shell aliases:
+  - `echo "source ~/Documents/dotfiles/home/.profile_git" >> ~/.zshrc`
+* Git command-level aliases:
+  - `cp ./home/.gitconfig ~`
+
+### Prettiness
+* TODO: remove in favor of Warp
 * Install [iTerm2](https://iterm2.com/):
   - `⌘`-`,` to open Preferences
   - import `iterm2/iterm2profile.json`
@@ -22,12 +30,8 @@
 * Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k#manual), includes git prompt
 * Install [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete):
   - `cd ~/Documents/dotfiles && git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git && echo "source ~/Documents/dotfiles/zsh-autocomplete/zsh-autocomplete.plugin.zsh" >> ~/.zshrc`
-* Git shell aliases:
-  - `echo "source ~/Documents/dotfiles/home/.profile_git" >> ~/.zshrc`
-* Git command-level aliases:
-  - `cp ./home/.gitconfig ~`
 
-### Vim
+## Vim
 
 * `cp ./home/.vimrc ~`
   - (won't work until the below is complete)
@@ -36,9 +40,9 @@
 * Install [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start):
   - `cd /tmp && git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim && vim +PluginInstall +qall`
 
-### Tmux
+## Tmux
 
 * `brew install tmux`
 * `cp .tmux.conf ~`
 
-### TODO: Alfred
+## TODO: Raycast
