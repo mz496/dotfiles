@@ -17,7 +17,7 @@
 
 ### Aliases
 * Git shell aliases:
-  - `echo "source ~/Documents/dotfiles/home/.profile_git" >> ~/.zshrc`
+  - `echo "source $PWD/home/.profile_git" >> ~/.zshrc`
 * Git command-level aliases:
   - `cp ./home/.gitconfig ~`
 
