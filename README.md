@@ -16,6 +16,8 @@
   - Reload Config
 * Install [Rectangle](https://rectangleapp.com/) (for resizing windows):
   - import `RectangleConfig.json`
+ 
+* Startup items: System Preferences > Login Items & Extensions
 
 ## Shell
 
