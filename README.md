@@ -21,10 +21,12 @@
 * Install Notion Calendar
   * Disable ctrl-cmd-J shortcut to join next meeting: Settings > Menu bar
 * Install Cursor: cmd-shift-J to open app settings; Privacy Mode
+
+## Other
+* Screenshots: cmd-shift-5; Options > Save to, and Show floating thumbnail off
 * Startup items: System Preferences > Login Items & Extensions
 
 ## Installations
-
 * Install [Homebrew](https://brew.sh/)
 * Install git: try `git --version` and install from prompt
 
@@ -34,11 +36,7 @@
 * Git command-level aliases:
   - `cp ./home/.gitconfig ~`
 
-### Prettiness
-* TODO: remove in favor of Warp
-
 ## Vim
-
 * `cp ./home/.vimrc ~`
   - (won't work until the below is complete)
 * Install [vim solarized colors](https://github.com/altercation/solarized/tree/master/vim-colors-solarized):
@@ -47,7 +45,6 @@
   - `cd /tmp && git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim && vim +PluginInstall +qall`
 
 ## Tmux
-
 * `brew install tmux`
 * `cp .tmux.conf ~`
 
