@@ -11,9 +11,15 @@
 * System Preferences > Trackpad
   * Tracking speed = 6/10
   * Turn off swipe to go back: … > More Gestures > Swipe between pages = Off
-* Default browser: Desktop & Dock > Widgets
+* System Preferences > Desktop & Dock
+  * Change default browser: under Widgets
+  * Dock: Position on screen; Automatically hide and show the Dock
+* Install Raycast
+  * Password for config file is TODO
 * Install [Rectangle](https://rectangleapp.com/) (for resizing windows):
   * Import `RectangleConfig.json`
+* Install Notion Calendar
+  * Disable control cmd J shortcut to join next meeting: Settings > Menu bar
 * Startup items: System Preferences > Login Items & Extensions
 
 ## Installations
@@ -43,9 +49,6 @@
 
 * `brew install tmux`
 * `cp .tmux.conf ~`
-
-## TODO: Raycast
-
 
 ## Old
 
