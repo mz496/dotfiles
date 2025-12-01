@@ -11,17 +11,15 @@
 * System Preferences > Trackpad
   * Tracking speed = 6/10
   * Turn off swipe to go back: … > More Gestures > Swipe between pages = Off
-* Install [Hammerspoon](https://github.com/Hammerspoon/hammerspoon/releases/latest) (for scroll with Alt):
-  - `cp ./hammerspoon/init.lua ~/.hammerspoon/`
-  - Reload Config
+* Default browser: Desktop & Dock > Widgets
 * Install [Rectangle](https://rectangleapp.com/) (for resizing windows):
-  - import `RectangleConfig.json`
- 
+  * Import `RectangleConfig.json`
 * Startup items: System Preferences > Login Items & Extensions
 
-## Shell
+## Installations
 
 * Install [Homebrew](https://brew.sh/)
+* Install git: try `git --version` and install from prompt
 
 ### Aliases
 * Git shell aliases:
@@ -31,13 +29,6 @@
 
 ### Prettiness
 * TODO: remove in favor of Warp
-* Install [iTerm2](https://iterm2.com/):
-  - `⌘`-`,` to open Preferences
-  - import `iterm2/iterm2profile.json`
-  - set as default (Preferences > Profiles)
-* Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k#manual), includes git prompt
-* Install [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete):
-  - `cd ~/Documents/dotfiles && git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git && echo "source ~/Documents/dotfiles/zsh-autocomplete/zsh-autocomplete.plugin.zsh" >> ~/.zshrc`
 
 ## Vim
 
@@ -54,3 +45,20 @@
 * `cp .tmux.conf ~`
 
 ## TODO: Raycast
+
+
+## Old
+
+### For external keyboards
+* Install [Hammerspoon](https://github.com/Hammerspoon/hammerspoon/releases/latest) (for scroll with Alt):
+  - `cp ./hammerspoon/init.lua ~/.hammerspoon/`
+  - Reload Config
+ 
+### For old terminal stuff
+* Install [iTerm2](https://iterm2.com/):
+  - `⌘`-`,` to open Preferences
+  - import `iterm2/iterm2profile.json`
+  - set as default (Preferences > Profiles)
+* Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k#manual), includes git prompt
+* Install [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete):
+  - `cd ~/Documents/dotfiles && git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git && echo "source ~/Documents/dotfiles/zsh-autocomplete/zsh-autocomplete.plugin.zsh" >> ~/.zshrc`
