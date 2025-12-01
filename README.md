@@ -28,7 +28,9 @@
 
 ## Installations
 * Install [Homebrew](https://brew.sh/)
-* Install git: try `git --version` and install from prompt
+* Install git
+  * `git --version` and install from prompt
+  * `gh auth login` to do pushes
 
 ### Aliases
 * Git shell aliases:
