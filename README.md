@@ -19,7 +19,8 @@
 * Install [Rectangle](https://rectangleapp.com/) (for resizing windows):
   * Import `RectangleConfig.json`
 * Install Notion Calendar
-  * Disable control cmd J shortcut to join next meeting: Settings > Menu bar
+  * Disable ctrl-cmd-J shortcut to join next meeting: Settings > Menu bar
+* Install Cursor: cmd-shift-J to open app settings; Privacy Mode
 * Startup items: System Preferences > Login Items & Extensions
 
 ## Installations
