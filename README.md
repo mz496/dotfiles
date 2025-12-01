@@ -2,9 +2,15 @@
 
 ## General
 
-* Remap CapsLock to Esc: System Preferences > Keyboard > Modifier Keys
-* Remap Mission Control to Cmd-Esc: System Preferences > Keyboard > Shortcuts > Mission Control etc.
-* Trackpad speed: one notch past midpoint
+* System Preferences > Keyboard
+  * Key repeat rate = Fast (maximum)
+  * Delay until repeat = Short (maximum)
+  * … > Keyboard Shortcuts…
+    * Remap CapsLock to Esc: … > Modifier Keys
+    * Remap Mission Control to Cmd-Esc: … > Mission Control
+* System Preferences > Trackpad
+  * Tracking speed = 6/10
+  * Turn off swipe to go back: … > More Gestures > Swipe between pages = Off
 * Install [Hammerspoon](https://github.com/Hammerspoon/hammerspoon/releases/latest) (for scroll with Alt):
   - `cp ./hammerspoon/init.lua ~/.hammerspoon/`
   - Reload Config
