@@ -15,7 +15,8 @@
   * Change default browser: under Widgets
   * Dock: Position on screen; Automatically hide and show the Dock
 * Install Raycast
-  * Password for config file is TODO
+  * Import/export settings is under Advanced
+  * Password for config file is `password`
 * Install [Rectangle](https://rectangleapp.com/) (for resizing windows):
   * Import `RectangleConfig.json`
 * Install Notion Calendar
@@ -25,6 +26,8 @@
 ## Other
 * Screenshots: cmd-shift-5; Options > Save to, and Show floating thumbnail off
 * Startup items: System Preferences > Login Items & Extensions
+* Cursor
+  * Import/export keyboard shortcuts is cmd+shift+P > Open Keyboard Shortcuts (JSON)
 
 ## Installations
 * Install [Homebrew](https://brew.sh/)
@@ -42,9 +45,9 @@
 * `cp ./home/.vimrc ~`
   - (won't work until the below is complete)
 * Install [vim solarized colors](https://github.com/altercation/solarized/tree/master/vim-colors-solarized):
-  - `cd /tmp && git clone https://github.com/altercation/solarized && mkdir -p ~/.vim/colors/; mv solarized/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/`
+  - `cd /tmp && git clone https://github.com/altercation/solarized && mkdir -p ~/.vim/colors/; mv solarized/vim-colors-solarized/colors/solarized.vim ~/.vim/colors/ && cd -`
 * Install [Vundle](https://github.com/VundleVim/Vundle.vim#quick-start):
-  - `cd /tmp && git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim && vim +PluginInstall +qall`
+  - `cd /tmp && git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim && vim +PluginInstall +qall && cd -`
 
 ## Tmux
 * `brew install tmux`
