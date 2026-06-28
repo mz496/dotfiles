@@ -1,0 +1,6 @@
+name = "Core Terminal"
+
+[[panes]]
+id = "main"
+type = "terminal"
+directory = "~/Documents/navigate/core"

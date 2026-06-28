@@ -1,0 +1,34 @@
+name = "New Task"
+title = "{{worktree_name}}"
+color = "magenta"
+
+[[panes]]
+id = "root"
+split = "horizontal"
+children = ["worktree", "claude"]
+
+[[panes]]
+id = "worktree"
+type = "terminal"
+directory = "~/Documents/navigate/core-for-worktrees/core"
+is_focused = true
+commands = [
+  "worktree_name=$(printf '%s' '{{worktree_name}}' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//'); base_branch=$(printf '%s' '{{base_branch}}' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//'); safe_branch=$(printf '%s' \"$worktree_name\" | sed 's/[^A-Za-z0-9_-]/-/g'); wt=\".claude/worktrees/$safe_branch\"; if [ -d \"$wt\" ]; then echo \"==> Reattaching to existing worktree: $wt\"; cd \"$wt\"; else git fetch origin \"$base_branch\"; out=$(scripts/development/checkouts/worktree \"$worktree_name\" \"origin/$base_branch\"); echo \"$out\"; cd \"$(printf '%s\\n' \"$out\" | sed -n 's/^==> Worktree ready: //p')\"; fi",
+]
+
+[[panes]]
+id = "claude"
+type = "terminal"
+directory = "~/Documents/navigate/core-for-worktrees/core"
+commands = [
+  "worktree_name=$(printf '%s' '{{worktree_name}}' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//'); safe_branch=$(printf '%s' \"$worktree_name\" | sed 's/[^A-Za-z0-9_-]/-/g'); wt=\".claude/worktrees/$safe_branch\"; if [ -d \"$wt\" ]; then resume=1; else resume=0; fi; until [ -d \"$wt\" ]; do sleep 0.5; done; cd \"$wt\"; if [ \"$resume\" = 1 ]; then claude --resume \"$safe_branch\"; else claude --name \"$safe_branch\"; fi",
+]
+
+[params.worktree_name]
+type = "text"
+description = "Worktree name (used as the branch + worktree name)"
+
+[params.base_branch]
+type = "text"
+description = "Base branch to fork the worktree from (fetched from origin first)"
+default = "main"

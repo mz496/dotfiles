@@ -22,6 +22,9 @@
 * Install Notion Calendar
   * Disable ctrl-cmd-J shortcut to join next meeting: Settings > Menu bar
 * Install Cursor: cmd-shift-J to open app settings; Privacy Mode
+* Install Todoist
+  * Disable ctrl-cmd-T global shortcut to show/hide Todoist (this will be handled by Raycast) in Settings -> Desktop
+* Install Warp
 
 ## Other
 * Screenshots: cmd-shift-5; Options > Save to, and Show floating thumbnail off

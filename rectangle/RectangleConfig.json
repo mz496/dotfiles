@@ -1,6 +1,9 @@
 {
   "bundleId" : "com.knollsoft.Rectangle",
   "defaults" : {
+    "SUEnableAutomaticChecks" : {
+      "bool" : false
+    },
     "allowAnyShortcut" : {
       "bool" : false
     },
@@ -10,11 +13,11 @@
     "almostMaximizeWidth" : {
       "float" : 0
     },
-    "alternateDefaultShortcuts" : {
-      "bool" : true
-    },
     "altThirdCycle" : {
       "int" : 0
+    },
+    "alternateDefaultShortcuts" : {
+      "bool" : true
     },
     "alwaysAccountForStage" : {
       "int" : 0
@@ -34,10 +37,10 @@
     "cascadeAllDeltaSize" : {
       "float" : 30
     },
-    "centeredDirectionalMove" : {
+    "centerHalfCycles" : {
       "int" : 0
     },
-    "centerHalfCycles" : {
+    "centeredDirectionalMove" : {
       "int" : 0
     },
     "cornerSnapAreaSize" : {
@@ -46,8 +49,20 @@
     "curtainChangeSize" : {
       "int" : 0
     },
+    "cycleSizesIsChanged" : {
+      "bool" : false
+    },
     "disabledApps" : {
 
+    },
+    "doubleClickTitleBar" : {
+      "int" : 0
+    },
+    "doubleClickTitleBarIgnoredApps" : {
+
+    },
+    "doubleClickTitleBarRestore" : {
+      "int" : 0
     },
     "dragFromStage" : {
       "int" : 0
@@ -56,7 +71,7 @@
       "int" : 1
     },
     "footprintAlpha" : {
-      "float" : 0.30000001192092896
+      "float" : 0.3
     },
     "footprintAnimationDurationMultiplier" : {
       "float" : 0
@@ -76,8 +91,14 @@
     "gapSize" : {
       "float" : 0
     },
+    "hapticFeedbackOnSnap" : {
+      "int" : 0
+    },
     "hideMenubarIcon" : {
-      "bool" : false
+      "bool" : true
+    },
+    "ignoreDragSnapToo" : {
+      "int" : 0
     },
     "ignoredSnapAreas" : {
       "int" : 0
@@ -133,11 +154,20 @@
     "screenEdgeGapRight" : {
       "float" : 0
     },
+    "screenEdgeGapTop" : {
+      "float" : 0
+    },
+    "screenEdgeGapTopNotch" : {
+      "float" : 0
+    },
     "screenEdgeGapsOnMainScreenOnly" : {
       "bool" : false
     },
-    "screenEdgeGapTop" : {
-      "float" : 0
+    "screensOrderedByX" : {
+      "int" : 0
+    },
+    "selectedCycleSizes" : {
+      "int" : 0
     },
     "shortEdgeSnapAreaSize" : {
       "float" : 145
@@ -178,8 +208,11 @@
     "subsequentExecutionMode" : {
       "int" : 1
     },
-    "SUEnableAutomaticChecks" : {
-      "bool" : false
+    "systemWideMouseDown" : {
+      "int" : 0
+    },
+    "systemWideMouseDownApps" : {
+
     },
     "todo" : {
       "int" : 0
@@ -190,6 +223,9 @@
     "todoMode" : {
       "bool" : false
     },
+    "todoSidebarSide" : {
+      "int" : 1
+    },
     "todoSidebarWidth" : {
       "float" : 400
     },
@@ -198,6 +234,9 @@
     },
     "unsnapRestore" : {
       "int" : 0
+    },
+    "widthStepSize" : {
+      "float" : 30
     },
     "windowSnapping" : {
       "int" : 0
@@ -224,25 +263,45 @@
       "keyCode" : 3,
       "modifierFlags" : 786432
     },
+    "centerTwoThirds" : {
+      "keyCode" : 15,
+      "modifierFlags" : 786432
+    },
+    "firstFourth" : {
+      "keyCode" : 22,
+      "modifierFlags" : 1703936
+    },
     "firstThird" : {
-      "keyCode" : 32,
-      "modifierFlags" : 1441792
+      "keyCode" : 16,
+      "modifierFlags" : 1703936
+    },
+    "firstThreeFourths" : {
+      "keyCode" : 26,
+      "modifierFlags" : 1703936
     },
     "firstTwoThirds" : {
-      "keyCode" : 16,
-      "modifierFlags" : 1441792
+      "keyCode" : 32,
+      "modifierFlags" : 1703936
     },
     "larger" : {
       "keyCode" : 24,
       "modifierFlags" : 786432
     },
+    "lastFourth" : {
+      "keyCode" : 25,
+      "modifierFlags" : 1703936
+    },
     "lastThird" : {
-      "keyCode" : 34,
-      "modifierFlags" : 1441792
+      "keyCode" : 31,
+      "modifierFlags" : 1703936
+    },
+    "lastThreeFourths" : {
+      "keyCode" : 28,
+      "modifierFlags" : 1703936
     },
     "lastTwoThirds" : {
-      "keyCode" : 31,
-      "modifierFlags" : 1441792
+      "keyCode" : 34,
+      "modifierFlags" : 1703936
     },
     "leftHalf" : {
       "keyCode" : 4,
@@ -264,6 +323,10 @@
       "keyCode" : 123,
       "modifierFlags" : 1835008
     },
+    "reflowTodo" : {
+      "keyCode" : 45,
+      "modifierFlags" : 786432
+    },
     "restore" : {
       "keyCode" : 51,
       "modifierFlags" : 786432
@@ -274,6 +337,10 @@
     },
     "smaller" : {
       "keyCode" : 27,
+      "modifierFlags" : 786432
+    },
+    "toggleTodo" : {
+      "keyCode" : 11,
       "modifierFlags" : 786432
     },
     "topHalf" : {
@@ -289,5 +356,5 @@
       "modifierFlags" : 786432
     }
   },
-  "version" : "71"
+  "version" : "98"
 }
